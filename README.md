@@ -1,11 +1,13 @@
-# api documentation for  [gulp-jade (v1.1.0)](https://github.com/phated/gulp-jade#readme)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jade.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jade)
+# api documentation for  [gulp-jade (v1.1.0)](https://github.com/phated/gulp-jade#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jade.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jade) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jade.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jade)
 #### Compile Jade templates
 
 [![NPM](https://nodei.co/npm/gulp-jade.png?downloads=true)](https://www.npmjs.com/package/gulp-jade)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_jade_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-jade/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screenCapture.buildNpmdoc.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-gulp-jade%2Ftmp%2Fbuild%2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
