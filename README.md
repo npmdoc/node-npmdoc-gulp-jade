@@ -1,9 +1,11 @@
 # api documentation for  [gulp-jade (v1.1.0)](https://github.com/phated/gulp-jade#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jade.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jade) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jade.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jade)
 #### Compile Jade templates
 
-[![NPM](https://nodei.co/npm/gulp-jade.png?downloads=true)](https://www.npmjs.com/package/gulp-jade)
+[![NPM](https://nodei.co/npm/gulp-jade.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-jade)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screenCapture.buildNpmdoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-gulp-jade%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-jade/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-jade/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +19,7 @@
 
 {
     "author": {
-        "name": "Blaine Bublitz",
-        "email": "blaine@iceddev.com"
+        "name": "Blaine Bublitz"
     },
     "bugs": {
         "url": "https://github.com/phated/gulp-jade/issues"
@@ -57,13 +58,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "phated",
-            "email": "blaine@iceddev.com"
+            "name": "phated"
         }
     ],
     "name": "gulp-jade",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/phated/gulp-jade.git"
@@ -74,16 +73,6 @@
     "version": "1.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-jade](#apidoc.module.gulp-jade)
-
-
-
-# <a name="apidoc.module.gulp-jade"></a>[module gulp-jade](#apidoc.module.gulp-jade)
 
 
 
