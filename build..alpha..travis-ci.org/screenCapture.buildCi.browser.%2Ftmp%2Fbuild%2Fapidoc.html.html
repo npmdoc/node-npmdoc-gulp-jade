@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/phated/gulp-jade#readme"
-
-    >gulp-jade (v1.1.0)</a>
+    <a href="https://github.com/phated/gulp-jade#readme">gulp-jade (v1.1.0)</a>
 </h1>
 <h4>Compile Jade templates</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-jade">module gulp-jade</a><ol>
 
@@ -118,10 +111,10 @@
       opts.data = file.data;
     }
 
-    file.path = ext(file.path, opts.client ? &#x27;.js&#x27; : &#x27;.html&#x27;);
+    file.path = ext(file.path, opts.client ? '.js' : '.html');
 
     if(file.isStream()){
-      return cb(new PluginError(&#x27;gulp-jade&#x27;, &#x27;Streaming not supported&#x27;));
+      return cb(new PluginError('gulp-jade', 'Streaming not supported'));
     }
 
     if(file.isBuffer()){
@@ -135,7 +128,7 @@
         }
         file.contents = new Buffer(compiled);
       } catch(e) {
-        return cb(new PluginError(&#x27;gulp-jade&#x27;, e));
+        return cb(new PluginError('gulp-jade', e));
       }
     }
     cb(null, file);
@@ -188,3 +181,4 @@
     ]
 </div>
 </div>
+</body></html>

@@ -61,12 +61,124 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-jade">module gulp-jade</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-jade.gulp-jade">
+            function <span class="apidocSignatureSpan"></span>gulp-jade
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-jade.toString">
+            function <span class="apidocSignatureSpan">gulp-jade.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.gulp-jade.toString">module gulp-jade.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-jade.toString.toString">
+            function <span class="apidocSignatureSpan">gulp-jade.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-jade" id="apidoc.module.gulp-jade">module gulp-jade</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-jade.gulp-jade" id="apidoc.element.gulp-jade.gulp-jade">
+        function <span class="apidocSignatureSpan"></span>gulp-jade
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-jade = function (options){
+  var opts = extend({}, options);
+  var jade = opts.jade || defaultJade;
+
+  function CompileJade(file, enc, cb){
+    opts.filename = file.path;
+
+    if(file.data){
+      opts.data = file.data;
+    }
+
+    file.path = ext(file.path, opts.client ? &#x27;.js&#x27; : &#x27;.html&#x27;);
+
+    if(file.isStream()){
+      return cb(new PluginError(&#x27;gulp-jade&#x27;, &#x27;Streaming not supported&#x27;));
+    }
+
+    if(file.isBuffer()){
+      try {
+        var compiled;
+        var contents = String(file.contents);
+        if(opts.client){
+          compiled = jade.compileClient(contents, opts);
+        } else {
+          compiled = jade.compile(contents, opts)(opts.locals || opts.data);
+        }
+        file.contents = new Buffer(compiled);
+      } catch(e) {
+        return cb(new PluginError(&#x27;gulp-jade&#x27;, e));
+      }
+    }
+    cb(null, file);
+  }
+
+  return through.obj(CompileJade);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-jade.toString" id="apidoc.element.gulp-jade.toString">
+        function <span class="apidocSignatureSpan">gulp-jade.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.gulp-jade.toString" id="apidoc.module.gulp-jade.toString">module gulp-jade.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-jade.toString.toString" id="apidoc.element.gulp-jade.toString.toString">
+        function <span class="apidocSignatureSpan">gulp-jade.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
