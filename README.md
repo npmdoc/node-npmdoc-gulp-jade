@@ -1,4 +1,7 @@
-# api documentation for  [gulp-jade (v1.1.0)](https://github.com/phated/gulp-jade#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jade.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jade) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jade.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jade)
+# npmdoc-gulp-jade
+
+#### basic api documentation for  [gulp-jade (v1.1.0)](https://github.com/phated/gulp-jade#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-jade.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-jade) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-jade.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-jade)
+
 #### Compile Jade templates
 
 [![NPM](https://nodei.co/npm/gulp-jade.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-jade)
@@ -70,7 +73,8 @@
     "scripts": {
         "test": "gulp jshint && tap ./test"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
